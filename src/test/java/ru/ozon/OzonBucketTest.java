@@ -1,20 +1,12 @@
 package ru.ozon;
 
 import org.junit.*;
-import org.junit.runner.OrderWith;
-import org.junit.runners.MethodSorters;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.logging.LogType;
-import org.openqa.selenium.logging.LoggingPreferences;
-import org.openqa.selenium.remote.CapabilityType;
-import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.concurrent.TimeUnit;
-import java.util.logging.Level;
 
 public class OzonBucketTest {
 
